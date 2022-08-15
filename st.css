@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+  max-width: 340px;
+  min-width: 328px;
+  margin: 50px auto;
+  padding: 28px;
+  border-radius: 20px;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(215, 51%, 70%);
+}
+
+.cardTop{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.cardBottom{
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  margin-bottom: 16px;
+}
+
+.cardBottom h1{
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.cardBottom p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cryptoDetails{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.cryptoDetails div img{
+  vertical-align: top;
+}
+
+.cryptoDetails div span{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.cardFooter{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 10px;
+}
+
+.cardFooter img{
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  width: 34px;
+}
+
+.cardFooter p{
+  padding: 5px;
+}
+
+.cardFooter p span{
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
